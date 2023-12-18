@@ -7,7 +7,7 @@
   color: #000000;
   font-weight: bold;
   font-size: 14.5px;
-  background: url(amah.jpg);
+  background: url(/amah.jpg);
     background-size: cover;
     background-attachment: fixed;
     
@@ -56,11 +56,15 @@ div{border: 1px solid rd}
   backdrop-filter: blur(2px);
   display: flex;
   flex-direction: column;
+  background-attachment: fixed;
   overflow: hidden;
+  z-index: 2;
   gap: 2px;
+  background-size: 900px;
+  transition: background 200ms ease;
+  }
   
-  
-}
+
 
 
 #sidenav{
@@ -135,6 +139,7 @@ h1{
 }
   
 .intro2{
+  z-index: 1;
   display: flex;
   justify-content: space-around;
   margin : 2px;
@@ -188,15 +193,64 @@ strong{
 }
 
 #hirebutton{
+  animation: rt 2s linear infinite;
   padding: 0 20px 0;
   position: relative;
   bottom: 20px;
   border-radius: 17px;
   font-size: 27px;
   border : 0;
-  color: #fff;
-  background: #000;
+  transform: scale(0);
+  transition: all 200ms ease;
+  color: #0418F6;
+  background: #fff;
   box-shadow: 0 0 10px #000
+}
+.contact{
+  z-index: 3;
+  border: 1px solid rd;
+  height: 300px;
+  width: 300px;
+  transform-origin: top;
+  position: relative;
+  background: #fff;
+  display: none;
+  flex-direction: column;
+  gap: 25px;
+}
+#tku{
+  color: #000
+}
+#cx{
+  position: absolute;
+  width: 30px;
+  right: 3px;
+  z-index: 2;
+}
+.row{
+  z-index: 1;
+  position: relative;
+  margin: 2px;
+  display : flex;
+  gap: 10px;
+  flex-direction: row;
+  
+}
+.row img{
+  width: 50px
+}
+.io{
+  font-size: 18px;
+  position: relative ;
+  top: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+@keyframes rt{
+  0%{scale: 1.1}
+  50%{scale:1 }
+  100%{scale:1.1}
 }
 
 .box img:hover{
@@ -255,17 +309,7 @@ strong{
   background: linear-gradient(-180deg,#72737F,#A2A3B2,#67686E,#767780) ;
   background: transparent;
 }
-.row img{width:60px;
-height: 50px;
-  border: 1px solid red ;
-}
-.row{
-  display : flex;
-  top: -50px;
-  flex-direction: row;
-  position: relative;
-  
-}
+
 #te{
   text-align: center ;
 }
