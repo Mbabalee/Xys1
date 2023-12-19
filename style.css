@@ -1,5 +1,5 @@
-@media screen and (orientation: portrait){
- 
+@media screen and (orientation: portrait) {
+  
   body{
   transition: background-color 0.5s ease;
    
@@ -7,7 +7,7 @@
   color: #000000;
   font-weight: bold;
   font-size: 14.5px;
-  background: url(/amah.jpg);
+  background: linear-gradient(45deg,#FF0074, #5300FF);
     background-size: cover;
     background-attachment: fixed;
     
@@ -17,6 +17,9 @@
  
 }
 
+#we{
+  box-shadow: none;
+}
     .changed-background {
         
             
@@ -27,7 +30,7 @@
   font-style: italic;
   font-size: 25px;
   color: #fff;
-  background:#42445A;
+  background: #872FFF5E;
   margin: 30px;
   border-radius: 15px;
 }
@@ -67,19 +70,30 @@ div{border: 1px solid rd}
 
 
 
-#sidenav{
-  justify-items: center ;
+#ul{
+  justify-content: space-between ;
   align-items: center ;
   flex-direction: row;
-  border: 1px solid blue;
-  height: 111px;
-  display: none;
-  background : #ffee00;
-  width: 300px;
-  right: 0;
-  top: 0;
+  gap: 15px;
+  padding: 12px 10px 12px;
+  display: flex;
+  transition: all 200ms ease;
+  background : transparent;
+  top: 14px;
   position: absolute;
-  z-index: 4
+  z-index: -1
+}
+#ul a{
+  
+  text-decoration: none;
+  background: linear-gradient(45deg,#FF0074, #5300FF);
+  position: relative;
+  right: 2px;
+  color:#fff;
+  padding: 0 12px;
+  font-size: 18px;
+  white-space: nowrap;
+  border-radius: 8px;
 }
 .re{
   font-size: 25px
@@ -104,8 +118,9 @@ div{border: 1px solid rd}
 
 h1{
   text-align: center ;
+  box-shadow: -3px 0 20px #000;
   color: #fff;
-  background: #33343A;
+  background: linear-gradient(45deg,#FF0074, #5300FF);
   margin: 30px;
   border-radius: 15px;
 }
@@ -115,8 +130,9 @@ h1{
 }
 
 .intro0{height:70px;
-  background: linear-gradient(88deg,#FF0AA0,#FF3DB3,#250AFF);
+  background: linear-gradient(75deg,#FF0AA0,#FF3DB3,#250AFF);
   justify-content: space-between ;
+  box-shadow:  -35px 6px 39px #000 ;
   display: flex;
   z-index: 2;
   align-items: center 
@@ -141,9 +157,9 @@ h1{
 .intro2{
   z-index: 1;
   display: flex;
+  position: relative;
   justify-content: space-around;
-  margin : 2px;
-  
+  transition: all 200ms ease-in;
   align-items: center;
   flex-direction: column;
   background: transparent ;
@@ -154,7 +170,7 @@ h1{
   text-align: center;
   font-size: 27px
 }
-
+   
 #te{color: #fff}
 .intro2 li p{color: #E0E1F1 }
 #ps{
@@ -196,39 +212,91 @@ strong{
   animation: rt 2s linear infinite;
   padding: 0 20px 0;
   position: relative;
+  left: 130px;
+  display : flex;
+  align-self: center;
   bottom: 20px;
   border-radius: 17px;
   font-size: 27px;
   border : 0;
   transform: scale(0);
   transition: all 200ms ease;
-  color: #0418F6;
-  background: #fff;
+  color: #fff;
+  background: linear-gradient(45deg,#FF0074, #5300FF);;
   box-shadow: 0 0 10px #000
+}
+#vm{white-space: nowrap;
+  position: absolute ;
+  top: 7px;
+  font-size: 20px;
+  right: 50px;
+  text-decoration: none ;
+  color: #fff;
+  
+}
+li{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: -20px;
+  list-style: none;
+  background:linear-gradient(45deg,#FF0074B3, #5300FFB5); ;
+  padding: 15px;
+  width: 300px;
+  border-radius: 16px;
+  box-shadow: 1.5px -10px 22px #0707E6;
+ 
+  animation: ro 2s linear infinite; 
+}
+@keyframes ro{
+  0%{
+box-shadow:  11px -10px 22px ,#0707E6
+  }
+  50%{
+    
+box-shadow:  11px -10px 22px,#0707E617
+             
+  
+  }
+  100%{
+box-shadow:  6px -6px 12px ,#0707E6
+             -6px 6px 12px #850866;
+  }
 }
 .contact{
   z-index: 3;
-  border: 1px solid rd;
-  height: 300px;
+   border-radius: 13px;
+   box-shadow:  -3px 0 20px #000;;
+  height: 320px;
   width: 300px;
+  color: #fff;
   transform-origin: top;
   position: relative;
-  background: #fff;
+  left: 42px;
+  background: linear-gradient(45deg,#FF0074B3, #5300FFB5);
   display: none;
   flex-direction: column;
   gap: 25px;
 }
 #tku{
-  color: #000
+  color: #fff;
+  background: transparent;
+  box-shadow: none;
 }
-#cx{
+#cx1{
+  scale: 0;
+  transition: all 280ms ease;
+}
+#cx,#cx1{
   position: absolute;
+  outline: none;
   width: 30px;
   right: 3px;
   z-index: 2;
 }
 .row{
   z-index: 1;
+  color: #fff;
   position: relative;
   margin: 2px;
   display : flex;
@@ -236,16 +304,19 @@ strong{
   flex-direction: row;
   
 }
+
+.row p{color: #fff}
 .row img{
   width: 50px
 }
 .io{
   font-size: 18px;
+  color: #fff;
   position: relative ;
-  top: 10px;
+  top: 5px;
   text-align: center;
-  font-weight: bold;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  
+ 
 }
 @keyframes rt{
   0%{scale: 1.1}
@@ -299,7 +370,7 @@ strong{
   flex-direction: row;
   position: relative ;
   left:4px;
-  gap: 30px;
+  gap: 25px;
   align-items: center ;
   height : 300px;
   overflow-y: hidden;
@@ -313,14 +384,15 @@ strong{
 #te{
   text-align: center ;
 }
-#ul{
-  display: none
-}
+#ul{}
 #cac{
+    transition: all 280ms ease;
+
 width: 30px;
 }
 #cac1{position: relative;
 right: 28px;
+transition: all 270ms ease;
   background:none;
 width: 20px;
 border-radius: 10px;
@@ -353,5 +425,10 @@ border-radius: 10px;
   text-align: center;
   color:#fff
 }
-
 }
+
+
+
+
+
+
