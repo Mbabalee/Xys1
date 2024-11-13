@@ -1,0 +1,348 @@
+*{border: 1px solid re;
+  
+}
+body{
+  background: url("bg.png");
+  background-size: cover;
+  background-attachment: fixed ;
+  background-position: center;
+  animation : op 2000ms linear infinite;
+  overflow-x: hidden;
+}
+@keyframes op{
+  
+}
+.center{
+ justify-content: center;
+ margin: 0;
+ align-items: center;
+ display: flex;
+ flex-direction: row;}
+ 
+.center p{
+  font-size: 19px;
+  color: #fff;
+}
+    .navbar{
+
+     display: flex;
+
+     padding: 0 10px;
+     justify-content: space-between;
+     align-items: center;
+     position: fixed;
+     top: 0;
+     background-color: #1256d4;
+    box-shadow: 0px 02px 13px #272727;
+     right: 0;
+     left: 0;
+    z-index: 3;
+    }
+    #intro-text{
+  white-space: wrap;
+  text-align: center;
+  letter-spacing: 2px;
+  position: relative;
+  top: 20px;
+  color:#3BFB00
+    }
+    intext{
+        padding: 5px;
+        position: relative;
+        top: 40px;
+        color: #fff;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    #end-intro-text{
+        font-size: 40px;
+    }
+    .menubtn{
+        display: none;
+      
+    }
+      #readmorebtn1{
+ text-decoration: none;
+ color: #0004ff;
+ background-color: #73ff00;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ border-radius: 5px;
+ padding: 0.4rem;
+ position: relative;
+  }
+   head2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 10px;
+    width: 89vw;
+    flex-direction: column;
+      border: 1px solid whitemoke;
+
+ }
+ bgg{
+   height: 400px;
+   background-position: center;
+   width: 100vw;
+   background-repeat: no-repeat;
+   justify-content: center;
+   align-content: center;
+   display: flex;
+   background-image: url("/architect-3979490_640.jpg")
+ }
+ bgg h1{
+   text-align: center;
+   color: #fff;
+   margin-top: 210px;
+   text-shadow: 2px 0 2px #000;
+ }
+ #hup{
+   background: #fff;
+   color: #000;
+   position: relative;
+   width: 100vw;
+   top: -37px;
+   padding-bottom: 10px;
+   text-align: center;
+ }
+
+.h1{
+    color: #0004ff;
+    font-size: 1.5rem;
+
+ }
+
+.services{
+ padding: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ flex-wrap: wrap;
+   border: 1px solid greenellow;
+
+} 
+.hc{
+  color: #000;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  white-space: nowrap;
+  bottom: 10px;
+  position: relative;
+}
+.svc{
+  border: 1px solid deepink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #686868;
+    background: #fff;
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    width: 320px;
+     height:70% ;
+    
+    text-align: center;
+ }
+ .svc img{
+   border-radius: 10px
+ }
+ .svc1{
+   
+  border: 1px solid deepink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #686868;
+    background: #fff;
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding: 10px;
+    width: 320px;
+     height:70% ;
+    
+    text-align: center;
+ 
+ }
+b{
+  font-weight: bold;
+  color: black;
+}
+ .svc1 img{
+    width: 200px ;
+    border-radius: 10px;
+ }
+ .center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ }
+ .blg{
+    text-decoration: none;
+    background-color:#003cff;
+    color: #ffffff;
+    position: relative;
+    bottom: 5px;
+    padding: 4px 15px;
+    border-radius: 5px;
+ }
+ .btn{
+   background : none;
+   border : 0;
+   outline : none;
+   cursor: pointer;
+ }
+ .svc1 h4{
+   font-size: 30px
+ }
+    .hd{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        margin-top: 10px;
+        padding: 5px;
+        gap: 10px;
+        flex-direction: column;
+        height: 220px;
+    
+    }
+    textbox{
+        margin-top: -30px;
+        overflow: hidden;
+    }
+    #ov{
+        margin-top: 5px;
+        overflow: hidden;
+
+    }
+    #apn{
+      font-size: 25.3px;
+      margin-top: 10px;
+      padding: 3px 10px;
+    }
+    .p{
+        font-size: 16.2px;
+        color: #272727;
+        text-align: center;
+        white-space: wrap;
+        
+    }
+
+
+    #ex{
+     display: none;
+    }
+    #bname{
+        color: #fff;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-left: -1rem;
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    brand{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 1.2rem;
+        align-items: center;
+    }
+    brand img{
+        width: 70px;
+    }
+
+    .dropdown{
+      padding: 0 7px;
+      position: fixed;
+      top: 60.3px;
+      right: 4%;
+      display: flex;
+      flex-direction: row;
+      gap: 4px;
+      justify-content: space-between;
+      transition: all 200ms ease;
+    z-index: 3;
+    }
+    
+
+    .dropdown a{
+        text-decoration: none;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 1.2rem;
+      color: #fff;
+      margin-left: 20px;
+    }
+.dropdown a:hover{
+    color: #3cff00;
+
+}
+    .show{
+      transition: all 200ms ease;
+      height: 130px;
+        
+     
+    }
+    .img{
+      display:none
+    } 
+     .jop {
+       color: #000;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-weight: bold;
+       font-size: 20px
+     }
+
+.box{
+  margin-bottom: 30px;
+  justify-content: center;
+  align-content: center;
+  box-shadow: 1px 0 5px #000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.services2{
+  background:#ffff;
+ padding: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 10px;
+ border-radius: 17px;
+ margin-top: 30px;
+ flex-direction: column;
+ flex-wrap: wrap;
+   border: 1px solid greenellow;
+
+
+}
+.svc2{
+  
+  
+  border: 1px solid deepink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #686868;
+    margin-top: 2rem;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    width: 320px;
+     height:70% ;
+    
+    text-align: center;
+ overflow-x: scroll;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: flex-start;
+
+}
