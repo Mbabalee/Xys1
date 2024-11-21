@@ -27,7 +27,7 @@
      position: fixed;
      top: 0;
      width: 100vw;
-     background-color: #060E6C;
+     background: linear-gradient(20deg,#060E6C,#000DA7);
     box-shadow: 0px 02px 13px #272727;
      right: 0;
      left: 0;
@@ -186,6 +186,7 @@
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  border-radius: 5px;
  font-size: 15px;
+ white-space: nowrap;
  padding: 0.4rem;
  position: relative;
  bottom: 55px;
@@ -193,6 +194,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     .readmorebtn{
         text-decoration: none;
  color: #ffffff;
+  white-space: nowrap;
  background-color: #0044ff;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  border-radius: 5px;
@@ -305,7 +307,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      advert p{
       color: #000;
      }
-  
+  .pp{color: #060E6C;}
      .p1{
         color: #000;
      }
@@ -335,10 +337,10 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     }
     h4{
-        color: ;
         font-family: Arial,
         Helvetica, sans-serif;
-        font-size: 26px;
+        font-size: 23px;
+        text-align: center;
     }
     .box2{
    width: 300px;
