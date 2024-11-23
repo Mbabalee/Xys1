@@ -31,8 +31,7 @@ body{
      align-items: center;
      position: fixed;
      top: 0;
-     background: linear-gradient(20deg,#060E6C,#000DA7);
-
+background: linear-gradient(20deg,#060E6C,#222EB1,#000DA7);
     box-shadow: 0px 02px 13px #272727;
      right: 0;
      left: 0;
@@ -189,7 +188,7 @@ b{
  }
  .blg{
     text-decoration: none;
-    background-color:#060E6C;
+    background: linear-gradient(20deg,#060E6C,#222EB1,#000DA7);
     color: #fff;
     position: relative;
     padding: 4px 15px;
@@ -348,4 +347,84 @@ b{
   gap: 10px;
   justify-content: flex-start;
 
+}
+.cont{
+ height : 450px;
+ width: 90vw;
+ top: 17%;
+ background: #fff;
+ border-radius: 10px;
+}
+button{
+ border: 0;
+ outline: none;
+}
+button:active{
+ scale: 1.01;
+}
+.cart{
+ width: 100vw;
+ height: 100vh;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+  top: 0%;
+ backdrop-filter: blur(2px);
+ background : linear-gradient(#0011CF73,#000C8F);
+  position : fixed;
+  z-index: 5;
+}
+tb{
+ justify-content: space-between;
+ align-items: center;
+ display: flex;
+ border-bottom: 1px solid #000C8F;
+ padding: 0 10px;
+ color:#fff;
+ height: 40px;
+ background: #000C8F;
+}
+tb img{
+ width: 25px;
+}
+column{
+ display: flex;
+ padding: 0 10px;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center;
+ border: 1px solid green;
+}
+label{
+ font-size: 20px;
+ color: #5E06E8;
+ border: 1px solid #000;
+}
+rw {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ width: 100%;
+ align-items: center;
+border: 1px solid l;
+}
+r{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ white-space: nowrap
+}
+r1{
+ display: flex;
+ justify-content: center;
+ height: 200px;
+ border: 1px solid red;
+ align-items: center;
+ flex-direction: row;
+}
+rw img {
+ height: 80px;
+ width: 80px;
+ border: 1px solid #000;
 }

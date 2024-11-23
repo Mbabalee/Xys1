@@ -21,11 +21,26 @@
     xylemTech-X
    </h5>
        </brand>
-        <img  src="/326700_cart_shopping_icon.png" width="30px"></span>
+        <img  src="/326700_cart_shopping_icon.png" width="30px" onclick="showCart()">
               <span class="menubtn" id="menubtn"><img src="menu.png" width="54px"></span>
               
     </div>
-    
+       <div class="cart" id="cartPage">
+       <div class="cont">
+  <tb>
+   <img src="326700_cart_shopping_icon.png" alt="" />
+    <h3>Cart</h3>
+    <img src="btn_download_delete_n.png" onclick="closeCart()" />
+  </tb>
+    <column>
+  <rw>
+ <img src="" id="">
+    <r1>
+    </r1>
+    </column>
+   </div>
+   </div>
+
    <intext><h1 id="intro-text">
      Website Development Services 
    </h1>
@@ -41,39 +56,39 @@
      <head2>
 
        <div class="services">
-         <div class="svc1">
+         <div class="svc1" id="1">
            <img src="14787964.png" alt="">
            <h4>E-commerce website</h4>
            
          <h2 class="hc">$1380</h2>
          
-           <a href="#" class="blg">Add to Cart</a>
+   <button class="blg" onclick="addtocart(item1)">Add to Cart</button>
          </div>   
          </div>
          
 <div class="services">
-  <div class="svc1">
+  <div class="svc1" id="2">
       <img src="14787963.png " alt="">
           <h4>Business website</h4>
                    <h2 class="hc">$980</h2>
-              <a href="#" class="blg">Add to Cart</a>
+              <button class="blg" onclick="addtocart(item2)">Add to Cart</button>
                </div>
             </div>
 <div class="services">
-  <div class="svc1">
+  <div class="svc1" id="3">
   <img src="9751094.png" alt="">
                  <h4>Institutional website</h4>
                         
          <h2 class="hc">$1080</h2>
-                 <a href="#" class="blg">Add to Cart</a>
+                <button class="blg" onclick="addtocart(item3)">Add to Cart</button>
                </div>
                </div>
 <div class="services">
-  <div class="svc1">
+  <div class="svc1" id="4">
   <img src="8500705.png" alt="">
                  <h4>Organisation website</h4>
             <h2 class="hc">$280</h2>
-                 <a href="#" class="blg">Add to Cart</a>
+                 <button class="blg" onclick="addtocart(item4)">Add to Cart</button>
                </div>
                </div>
 
@@ -105,7 +120,7 @@ User-Centric Approach: Every design decision is made with the user in mind, ensu
    </head2>
    
   </div>
- <script src="main.js"></script>
+ <script src="main1.js"></script>
 </body>
 
 </html>
