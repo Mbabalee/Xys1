@@ -17,5 +17,7 @@ ex.addEventListener("click",function(){
     ex.style.display = "none"
 
     })
+    
+ 
 
 
